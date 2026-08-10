@@ -1,0 +1,1 @@
+# dedura_kanri_system1

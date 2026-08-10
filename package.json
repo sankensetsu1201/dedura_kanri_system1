@@ -1,0 +1,19 @@
+{
+  "name": "demen_app",
+  "version": "1.0.0",
+  "description": "Flutter と Firebase を使った出面管理アプリです。",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^14.2.0"
+  }
+}

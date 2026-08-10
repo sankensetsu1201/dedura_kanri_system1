@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "firebase emulators:start --only firestore": "demenapp-46d28",
+    "demen": "demenapp-46d28"
+  },
+  "targets": {},
+  "etags": {}
+}

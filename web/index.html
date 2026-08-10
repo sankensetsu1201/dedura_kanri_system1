@@ -1,0 +1,49 @@
+<!DOCTYPE html><html><head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="dedura_app">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="dedura_app">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>dedura_app</title>
+  <link rel="manifest" href="manifest.json">
+
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      background-color: #2E2E2E; /* ロゴ背景と一致 */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #splash-logo {
+      width: 260px;
+      height: auto;
+    }
+  </style>
+
+  <script>
+    function removeSplashFromWeb() {
+      const splash = document.getElementById("splash-logo");
+      if (splash) splash.remove();
+      document.body.style.backgroundColor = "#2E2E2E";
+    }
+  </script>
+</head>
+
+<body>
+  <!-- Flutter が起動するまで表示されるロゴ -->
+  <img id="splash-logo" src="splash/logo.png" alt="logo">
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

@@ -1,1 +1,2 @@
-# dedura_kanri_system1
+# demen_app
+

@@ -18,8 +18,8 @@ jobs:
 
       - name: Build Web
         run: |
+          flutter pub add intl:^0.20.3
           flutter build web --base-href "/${{ github.event.repository.name }}/"
-
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
